@@ -1,7 +1,7 @@
 import org.example.Company;
 import org.example.Employee;
 import org.example.Healthplan;
-import org.example.enums.Plan;
+import org.example.Plan;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -30,7 +30,7 @@ public class CompanyTest {
 
         String[] employees = new String[2];
         employees[0] = employee.getFullName();
-        company = new Company(1, "Workintech", 1000, employees);
+        company = new Company(1, "Workintech",  1000, employees);
     }
 
     @DisplayName("Healthplan sınıf değişkenleri doğru access modifier a sahip mi ?")
